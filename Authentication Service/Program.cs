@@ -10,6 +10,9 @@ builder.Services.AddOptionConfiguration(configuration);
 // DbContext Configuration
 builder.Services.AddDbContext<AppDbContext>();
 
+// Services
+builder.Services.AddServices();
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
