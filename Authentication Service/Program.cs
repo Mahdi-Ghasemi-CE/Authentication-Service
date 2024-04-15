@@ -1,4 +1,4 @@
-using Authentication_Service.API.Extensions.DependencyInjections;
+using Authentication_Service.Extensions.DependencyInjections;
 using Authentication_Service.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
