@@ -1,4 +1,5 @@
 using Authentication_Service.Domain.Roles;
+using Authentication_Service.Domain.Users;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Options = Authentication_Service.Application.Utils.Options;
@@ -22,4 +23,6 @@ public class AppDbContext : DbContext
     }
 
     private DbSet<Role> Roles { get; set; }
+    
+    private DbSet<User> Users { get; set; }
 }
