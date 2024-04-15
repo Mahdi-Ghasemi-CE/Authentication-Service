@@ -17,7 +17,7 @@ public class AppDbContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         // Configuration database
-        optionsBuilder.UseNpgsql(_options.DbConnection);
+        optionsBuilder.UseSqlServer(_options.DbConnection);
         
         base.OnConfiguring(optionsBuilder);
     }
