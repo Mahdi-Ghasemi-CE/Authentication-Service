@@ -1,8 +1,9 @@
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.CodeAnalysis;
+using Domain.Entities.Roles;
 using Microsoft.EntityFrameworkCore;
 
-namespace Domain.Users;
+namespace Domain.Entities.Users;
 
 [Index(nameof(Mobile), Name = "Index_Mobile", IsUnique = true)]
 [Index(nameof(Email), Name = "Index_Email", IsUnique = true)]
@@ -20,8 +21,6 @@ public class User
     public string? LastName { get; set; }
 
     [Required]
-    [MinLength(8)]
-    [MaxLength(30)]
     public string Password { get; set; }
 
     [Required]
@@ -43,5 +42,5 @@ public class User
     [Required]
     public DateTime VerifyCodeCreateDate { get; set; }
 
-    public Roles.Role Role { get; set; }
+    public Role Role { get; set; }
 }

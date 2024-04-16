@@ -1,5 +1,5 @@
-using Domain.Roles;
-using Domain.Users;
+using Domain.Entities.Roles;
+using Domain.Entities.Users;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Options = Authentication_Service.Application.Utils.Options;
@@ -22,7 +22,7 @@ public class AppDbContext : DbContext
         base.OnConfiguring(optionsBuilder);
     }
 
-    private DbSet<Role> Roles { get; set; }
+    public DbSet<Role> Roles { get; set; }
     
-    private DbSet<User> Users { get; set; }
+    public DbSet<User> Users { get; set; }
 }

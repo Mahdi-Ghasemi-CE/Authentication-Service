@@ -23,7 +23,7 @@ public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
     #endregion
 
     #region Commands
-    
+
     public void Add(TEntity entity)
     {
         _dbContext.Set<TEntity>().Add(entity);

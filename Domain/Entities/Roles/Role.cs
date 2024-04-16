@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace Domain.Roles;
+namespace Domain.Entities.Roles;
 
 [Index(nameof(SystemName), Name = "Index_SystemName", IsUnique = true)]
 public class Role

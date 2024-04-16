@@ -8,10 +8,10 @@ public static class ServiceInjection
 {
     public static IServiceCollection AddServices(this IServiceCollection services)
     {
-        services.AddScoped<IUnitOfWork, UnitOfWork>();
+        services.AddTransient<IUnitOfWork, UnitOfWork>();
 
         // user service
-        services.AddScoped<IUserService, UserService>();
+        services.AddTransient<IUserService, UserService>();
 
         return services;
     }
