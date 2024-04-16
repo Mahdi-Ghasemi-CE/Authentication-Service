@@ -70,6 +70,24 @@ public class UserService : IUserService
         }
     }
 
+    public async Task<OperationResult> GetByMobile(string mobile)
+    {
+        try
+        {
+            var user = _unitOfWork.Users.GetByMobile(mobile);
+            if (user is null)
+            {
+                return new OperationResult(HttpStatusCode.NotAcceptable, "متاسفانه اطلاعات خواسته شده یافت نشد.");
+            }
+            return new OperationResult(HttpStatusCode.OK, user);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return new OperationResult(HttpStatusCode.BadRequest, e);
+        }
+    }
+
     public async Task<OperationResult> Remove(int id)
     {
         try

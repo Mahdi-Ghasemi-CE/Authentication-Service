@@ -1,3 +1,4 @@
+using Application.Services.Authentication;
 using Authentication_Service.Application.Interfaces;
 using Authentication_Service.Application.Services.User;
 using Authentication_Service.Infrastructure;
@@ -12,6 +13,9 @@ public static class ServiceInjection
 
         // user service
         services.AddTransient<IUserService, UserService>();
+        
+        // authentication service
+        services.AddTransient<IAuthenticationService, Application.Services.Authentication.AuthenticationService>();
 
         return services;
     }
