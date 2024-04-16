@@ -16,10 +16,16 @@ builder.Services.AddServices();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Services
+builder.Services.AddServices();
+
 // Mapper service
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddControllers();
+
+// jwt bearer authentication
+builder.Services.AddBearerAuthentication();
 
 var app = builder.Build();
 
@@ -35,6 +41,9 @@ app.UseRouting();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.UseAuthentication();
+app.UseAuthorization();
 
 
 app.Run();

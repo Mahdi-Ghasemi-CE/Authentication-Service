@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\Work\\Hiweb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5DD28A22-0CE3-4C69-8AC0-3CE3157205E5}|Domain\\Domain.csproj|d:\\work\\hiweb\\domain\\entities\\users\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DD28A22-0CE3-4C69-8AC0-3CE3157205E5}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\users\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E5716DB-88C8-409F-8B31-8B4735A41F32}|Authentication Service\\Authentication Service - API.csproj|d:\\work\\hiweb\\authentication service\\extensions\\attributes\\jwtauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5716DB-88C8-409F-8B31-8B4735A41F32}|Authentication Service\\Authentication Service - API.csproj|solutionrelative:authentication service\\extensions\\attributes\\jwtauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E5716DB-88C8-409F-8B31-8B4735A41F32}|Authentication Service\\Authentication Service - API.csproj|d:\\work\\hiweb\\authentication service\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E5716DB-88C8-409F-8B31-8B4735A41F32}|Authentication Service\\Authentication Service - API.csproj|solutionrelative:authentication service\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDD458A7-EC04-42AD-9EAD-12086947EFBA}|Application\\Application.csproj|d:\\work\\hiweb\\application\\services\\authentication\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDD458A7-EC04-42AD-9EAD-12086947EFBA}|Application\\Application.csproj|solutionrelative:application\\services\\authentication\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5716DB-88C8-409F-8B31-8B4735A41F32}|Authentication Service\\Authentication Service - API.csproj|d:\\work\\hiweb\\authentication service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5716DB-88C8-409F-8B31-8B4735A41F32}|Authentication Service\\Authentication Service - API.csproj|solutionrelative:authentication service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,14 +43,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserRequest.cs",
-              "DocumentMoniker": "D:\\Work\\Hiweb\\Domain\\Entities\\Users\\UserRequest.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Users\\UserRequest.cs",
-              "ToolTip": "D:\\Work\\Hiweb\\Domain\\Entities\\Users\\UserRequest.cs",
-              "RelativeToolTip": "Domain\\Entities\\Users\\UserRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAYAAAA",
+              "Title": "JwtAuthorizeAttribute.cs",
+              "DocumentMoniker": "D:\\Work\\Hiweb\\Authentication Service\\Extensions\\Attributes\\JwtAuthorizeAttribute.cs",
+              "RelativeDocumentMoniker": "Authentication Service\\Extensions\\Attributes\\JwtAuthorizeAttribute.cs",
+              "ToolTip": "D:\\Work\\Hiweb\\Authentication Service\\Extensions\\Attributes\\JwtAuthorizeAttribute.cs",
+              "RelativeToolTip": "Authentication Service\\Extensions\\Attributes\\JwtAuthorizeAttribute.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwEEAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T10:58:39.822Z",
+              "WhenOpened": "2024-04-16T13:12:25.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "D:\\Work\\Hiweb\\Application\\Services\\Authentication\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Authentication\\AuthenticationService.cs",
+              "ToolTip": "D:\\Work\\Hiweb\\Application\\Services\\Authentication\\AuthenticationService.cs",
+              "RelativeToolTip": "Application\\Services\\Authentication\\AuthenticationService.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAYwDMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T13:01:36.962Z",
               "EditorCaption": ""
             },
             {
@@ -53,9 +74,22 @@
               "RelativeDocumentMoniker": "Authentication Service\\Controllers\\UserController.cs",
               "ToolTip": "D:\\Work\\Hiweb\\Authentication Service\\Controllers\\UserController.cs",
               "RelativeToolTip": "Authentication Service\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCIAAABCAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T08:21:01.198Z",
+              "WhenOpened": "2024-04-16T13:01:36.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Work\\Hiweb\\Authentication Service\\Program.cs",
+              "RelativeDocumentMoniker": "Authentication Service\\Program.cs",
+              "ToolTip": "D:\\Work\\Hiweb\\Authentication Service\\Program.cs",
+              "RelativeToolTip": "Authentication Service\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T12:52:11.034Z",
               "EditorCaption": ""
             }
           ]
